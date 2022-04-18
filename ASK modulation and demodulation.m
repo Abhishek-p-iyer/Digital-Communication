@@ -5,7 +5,7 @@ clear all;
 f=7; %carrier frequency 
 a=2; %amplitude 
 n=[1 0 1 1 0 0 0]; %The first 6 bits are used and an extra zero is added at the end to prevent array-size mismatch
-t1 = 0:0.1:length(n);
+t1 = 0:0.01:length(n);
 t2 = 0:6;
 y=a*sin(2*pi*f*t1);
 
